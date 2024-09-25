@@ -26,5 +26,27 @@ let range=33
 let rangeinstring=String(range)
 console.log(typeof (rangeinstring))
 
+
+/*********************Operations****************** */
+let value=3
+let negvalue=-value
+console.log(negvalue)
+
+console.log("1"+2); //it will take the first them decide in which form it will execute depend upon the string
+console.log(1+2);
+console.log(1+"2");
+
+let x=5,y;
+y=x++;
+console.log(y);     //x++ --x same in beddining but show xchange when ben assigned to y
+console.log(x);
+
+
+
+
+
+
+
+
                                         
 
