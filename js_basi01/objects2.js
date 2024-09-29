@@ -33,3 +33,11 @@ console.log(last)
 
 let result={...obj1,...obj2,...obj3}
 console.log(result);
+
+
+let data={
+    name:"aman"
+    ,age:18
+}
+let {["name"]:nickname}=data           //easy way to access
+console.log(nickname)  
