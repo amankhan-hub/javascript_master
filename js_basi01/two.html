@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const fun1=(any)=>{
+    const div=document.createElement('div')
+    div.className="main"
+    div.id=Math.round(Math.random()*10+1)
+    div.setAttribute("title","this is title")
+    const addtext=document.createTextNode(any)
+    div.appendChild(addtext)
+    document.body.appendChild(div)
+    div.style.color="green"
+    }
+   fun1("hey this is aman")
+
+</script>
+</html>
